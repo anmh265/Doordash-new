@@ -47,6 +47,9 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.doordashlogo{
+    display: none;
+}
 .heading{
     display: flex;
     flex-direction: column;
@@ -111,7 +114,7 @@ body{
     justify-content: center;
     position: relative;
     right: 50px;
-    top: 3px;
+    top: 4px;
 }
 #location a{
     margin-top: 20px;
@@ -410,10 +413,11 @@ body{
         justify-content: center;
     }
     .head1,.head2{
-        font-size: 32px;
+        font-size: 31px;
     }
     .head1{
         margin-top: 30px;
+        margin-bottom: 6px;
     }
     .head2{
         margin-bottom: 9px;
@@ -470,7 +474,7 @@ body{
 
     .bg{
         margin-top: -330px;
-        height: 860px;
+        height: 850px;
     }
     .part1 img{
        width: 100%;
@@ -486,7 +490,7 @@ body{
     .part2{
         display: flex;
         flex-direction: column-reverse;
-        padding-top: 300px;
+        padding-top: 280px;
     }
     .part2 .image2{
         size: 60%;
@@ -498,8 +502,19 @@ body{
     }
     .part2 .text-content2{
         width: 70%;
+        padding-left: 56px;
+    }
+    .part1 button{
+        width: 32%;
+        height: 37px;
+    }
+    .part2 button{
+        width: 40%;
     }
     .content p{
+        font-size: 14px;
+    }
+    .content a{
         font-size: 14px;
     }
     .top-head h1{
