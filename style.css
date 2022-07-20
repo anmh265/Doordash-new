@@ -1,4 +1,3 @@
-
 body{
     margin: 0;
     padding: 0;
@@ -392,7 +391,7 @@ body{
 
 @media screen and (max-width: 480px){
     .top{
-        height: 410px;
+        height: 470px;
     }
     .nav a{
         margin-top: 5px;
@@ -403,18 +402,25 @@ body{
     .logo{
         display: none;
     }
+    .doordashlogo img{
+        width: 60px;
+        margin-top: 50px;
+    }
     .heading{
         justify-content: center;
     }
     .head1,.head2{
         font-size: 32px;
     }
+    .head1{
+        margin-top: 30px;
+    }
     .head2{
-        margin-bottom: 20px;
+        margin-bottom: 9px;
     }
     #location{
-        padding-left: 50px;
         position: relative;
+        width: 60%;
     }
     .heading input{
         width: 80%;
@@ -424,7 +430,7 @@ body{
         background-color: white;
         color: black;
         position: absolute;
-        right: 10px;
+        right: 20px;
     }
     .mid{
         width: 90%;
@@ -437,7 +443,7 @@ body{
         padding: 0 20px;
     }
     .class1, .class2, .class3{
-        padding-left: 40px;
+        padding-left: 30px;
         text-align: left;
     }
     .class2 h2{
@@ -458,14 +464,8 @@ body{
         font-weight: 500;
         width: 90%;
     }
-    .mid1 img{
-        width: 20%;
-    }
-    .mid2 img{
-        width: 20%;
-    }
-    .mid3 img{
-        width: 20%;
+    .mid1 img, .mid2 img, .mid3 img{
+        width: 23%;
     }
 
     .bg{
@@ -519,6 +519,7 @@ body{
     .cities, .cuisines{
         flex-direction: column;
         justify-content: center;
+        gap: 15px;
     }
     .footer-top1, .footer-top2{
         text-align: center;
