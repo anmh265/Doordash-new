@@ -48,7 +48,7 @@ body{
     justify-content: space-between;
 }
 .doordashlogo{
-    display: none;
+   visibility: hidden;
 }
 .heading{
     display: flex;
@@ -406,6 +406,7 @@ body{
         display: none;
     }
     .doordashlogo img{
+       visibility: visible;
         width: 60px;
         margin-top: 50px;
     }
